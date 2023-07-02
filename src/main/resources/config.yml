@@ -1,0 +1,26 @@
+# [PerWorldChatPlugin] - A very simple plugin to separate your server
+# chat per world groups. If you have any issues, please contact me on
+# Discord or create a new issue on this plugin's repository.
+
+# Plugin Creator: Jairusu
+# Discord Username: @jairusu
+# Github: https://github.com/jairusudanieru
+
+# The names of the worlds are case-sensitive.
+# You can add more groups here, just follow the format below.
+worldGroups:
+  survival:
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+  lobby:
+    worlds:
+      - hub
+
+# For the join, quit and chat message, you can use the placeholder "&" for color codes,
+# "%player%" for the player username, and you can only use the "%message%" placeholder in chat message.
+messages:
+  joinMessage: "&e%player% joined the game"
+  quitMessage: "&e%player% left the game"
+  chatMessage: "&r%player%: %message%"
